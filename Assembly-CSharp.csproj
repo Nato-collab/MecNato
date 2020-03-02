@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F6DED11C-4BC4-5C16-BBEE-F4BD38B533BE}</ProjectGuid>
+    <ProjectGuid>{B33274C1-7006-8439-4EC1-BDF999EB60E0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,33 +63,34 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scenes\Cinetica y potencial\Scripts\Ball.cs" />
+    <Compile Include="Assets\Scenes\Movimiento Circular\Scripts\Oscilador.cs" />
     <Compile Include="Assets\Scenes\Practica 1\Scripts\Movimientovectorialyescalar.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/DELL/Desktop/Trabajos mecanica/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/Git/MecNato/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/DELL/Desktop/Trabajos mecanica/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/Git/MecNato/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/DELL/Desktop/Trabajos mecanica/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/Git/MecNato/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/DELL/Desktop/Trabajos mecanica/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/Git/MecNato/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/DELL/Desktop/Trabajos mecanica/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/Git/MecNato/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/DELL/Desktop/Trabajos mecanica/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/Git/MecNato/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/DELL/Desktop/Trabajos mecanica/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/Git/MecNato/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/DELL/Desktop/Trabajos mecanica/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/Git/MecNato/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/DELL/Desktop/Trabajos mecanica/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/Git/MecNato/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Unity/Proyectos/2019.2.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

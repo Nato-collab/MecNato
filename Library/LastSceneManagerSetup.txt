@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Cinetica y potencial/Potencial elastica.unity
+- path: Assets/Scenes/Movimiento Circular/Orbita.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
