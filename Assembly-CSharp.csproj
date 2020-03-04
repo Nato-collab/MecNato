@@ -65,6 +65,9 @@
     <Compile Include="Assets\Scenes\Cinetica y potencial\Scripts\Ball.cs" />
     <Compile Include="Assets\Scenes\Movimiento Circular\Scripts\Oscilador.cs" />
     <Compile Include="Assets\Scenes\Practica 1\Scripts\Movimientovectorialyescalar.cs" />
+    <Compile Include="Assets\Scenes\Tiro parabolico\Respuestas.cs" />
+    <Compile Include="Assets\Scenes\Tiro parabolico\Scripts\Bola.cs" />
+    <Compile Include="Assets\Scenes\Tiro parabolico\Scripts\Parabola.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Git/MecNato/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
