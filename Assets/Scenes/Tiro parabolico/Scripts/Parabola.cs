@@ -13,11 +13,19 @@ public class Parabola : MonoBehaviour
     public InputField angulo;
     public float velInicial;
     public float angle;
+    float pi = 3.1416f;
 
-    public float gravity = 9.8f;
+    public float gravity = 9.81f;
 
     public float yMax;
     public float xMax;
+
+    public float t;
+
+    public float an;
+    public float ang;
+
+    public float xang;
 
 
     void CalculaValores()
@@ -26,18 +34,24 @@ public class Parabola : MonoBehaviour
         angle = float.Parse(angulo.text);
         velInicial = float.Parse(velInit.text);
 
+        ang = angle * Mathf.Deg2Rad;
+        an = Mathf.Sin(ang);
 
-        yMax = 0 + velInicial * Mathf.Sin(angle) * 0.5f - 0.5f * 10 * 0.5f * 0.5f;
-        xMax = 0 + velInicial * Mathf.Cos(angle) * 1;
+        xang = Mathf.Cos(ang);
+
+
+        t = velInicial * an / gravity;
+
+
+        yMax = 0 + velInicial * an * t - 0.5f * gravity * Mathf.Pow(t, 2);
+        xMax = 0 + velInicial * xang * t;
 
         Quaternion rot = Quaternion.Euler(-angle, 0, 0);
 
         mine.rotation = rot;
 
-        float xMaxi = 0 - xMax;
-        float yMaxi = 0 - yMax;
 
-        valores.text = ("Altura maxima = " + yMaxi + "   Distancia recorrida en 1 segundo = " + xMaxi);
+        valores.text = ("Altura maxima = " + yMax + "   Distancia recorrida en 1 segundo = " + xMax);
     }
 
 

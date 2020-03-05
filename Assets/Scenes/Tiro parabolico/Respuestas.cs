@@ -1,7 +1,7 @@
 ﻿/*
 
 Que es un tiro parabolico? 
-Todo movimiento realizado por un cuerpo cuya trayectoria forme una parabola forme una parabola.
+Todo movimiento realizado por un cuerpo cuya trayectoria forme una parabola .
 
 Como se puede observar?
 Un ejemplo seria la trayectoria de una pelota de golf al ser impactada, esta formara una curva, que tambien es llamada parabola.
