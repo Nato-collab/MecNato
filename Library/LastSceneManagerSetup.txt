@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Tiro parabolico/Parabola.unity
+- path: Assets/Scenes/Prediccion de trayectoria/Prediccion.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
