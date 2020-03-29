@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Prediccion de trayectoria/Prediccion.unity
+- path: Assets/Scenes/Parcial 2/Practica 2 (Suma de fuerzas/Practica2.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
